@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Myapplication {
 
 	public static void main(String[] args) {
+		System.out.println("This is master branch");
 		System.out.println("TST1-brnch commit");
 		SpringApplication.run(Myapplication.class, args);
 	}
